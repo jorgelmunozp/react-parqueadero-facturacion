@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-parqueadero-facturacion/static/css/main.27c39201.css",
+    "main.js": "/react-parqueadero-facturacion/static/js/main.33029986.js",
+    "static/js/787.272f82cc.chunk.js": "/react-parqueadero-facturacion/static/js/787.272f82cc.chunk.js",
+    "static/media/logo.png": "/react-parqueadero-facturacion/static/media/logo.b80b5c23cde590bf1eb9.png",
+    "static/media/fondo.jpg": "/react-parqueadero-facturacion/static/media/fondo.51736390a2ec1dedeea1.jpg",
+    "index.html": "/react-parqueadero-facturacion/index.html",
+    "main.27c39201.css.map": "/react-parqueadero-facturacion/static/css/main.27c39201.css.map",
+    "main.33029986.js.map": "/react-parqueadero-facturacion/static/js/main.33029986.js.map",
+    "787.272f82cc.chunk.js.map": "/react-parqueadero-facturacion/static/js/787.272f82cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c39201.css",
+    "static/js/main.33029986.js"
+  ]
+}
