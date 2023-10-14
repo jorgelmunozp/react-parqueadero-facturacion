@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 import React from 'react';
@@ -23,11 +23,11 @@ class App extends React.Component {
       hora: new Date(),
     }));
     if(this.state.estado === 'start'){
-      if(this.state.segundos === 6){                  //Calcula los minutos de parqueo
+      if(this.state.segundos === 59){                  //Calcula los minutos de parqueo
         this.state.segundos = 0;
         this.state.minutos = this.state.minutos + 1;
       }
-      if(this.state.minutos === 6){                  //Calcula las horas de parqueo
+      if(this.state.minutos === 59){                  //Calcula las horas de parqueo
         this.state.minutos = 0;
         this.state.segundos = 0;
         this.state.horas = this.state.horas + 1;
@@ -57,12 +57,12 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Parqueadero Toto</h1>
+          <h1><FontAwesomeIcon icon={faParking} /> Parqueadero</h1>
         </header>
         <body>
           <div>
             <p>Hora: {this.state.hora.toLocaleTimeString()}</p>
-            <h3>Bienvenido <FontAwesomeIcon icon={faParking} /></h3>
+            <h3>Facturación</h3>
             <p>Tarifa: <b>$ 1.800</b> hora</p>
             <table>
               <tr>
